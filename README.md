@@ -52,3 +52,5 @@ Thanks to the following projects for their help:
 - Tailwind CSS
 - React-icons
 - React-router-dom
+- framer-motion
+- react-tilt

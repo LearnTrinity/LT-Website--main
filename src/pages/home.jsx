@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const SectionBox = ({ title, description, icon, color }) => {
     return (
         <motion.div
-            className={`rounded-lg shadow-lg ${color} p-6`}
+            className={`rounded-lg custom-shadow ${color} p-6`}
             whileHover={{ scale: 1.05 }}
         >
             <div className="flex items-center justify-center mb-4">
@@ -17,6 +17,8 @@ const SectionBox = ({ title, description, icon, color }) => {
         </motion.div>
     );
 };
+
+
 
 const Maintainers = () => {
     return (
@@ -107,18 +109,6 @@ const CodingChallenges = () => {
                         description="Description of Challenge 3."
                         icon="challenge3.png"
                         color="green"
-                    />
-                    <SectionBox
-                        title="Challenge 4"
-                        description="Description of Challenge 4."
-                        icon="challenge4.png"
-                        color="purple"
-                    />
-                    <SectionBox
-                        title="Challenge 5"
-                        description="Description of Challenge 5."
-                        icon="challenge5.png"
-                        color="orange"
                     />
                     {/* Add more Coding Challenges boxes as needed */}
                 </div>

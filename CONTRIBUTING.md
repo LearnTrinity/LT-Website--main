@@ -34,8 +34,8 @@
 
 ## Terms and Conditions
 
-Please read our [Terms and Conditions](link-to-terms-and-conditions) before contributing to this project.
+Please read our [Terms and Conditions](TERMS_AND_CONDITIONS.md) before contributing to this project.
 
 ## Code of Conduct
 
-Please read our [Code of Conduct](link-to-code-of-conduct) before contributing to this project.
+Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing to this project.
